@@ -63,6 +63,7 @@ body {
   .body-second-section {
     background: url("/images/bg-curvy-desktop.svg");
     background-size: cover;
+    background-position: center;
     height: 60vh;
     margin-top: -180px;
   }
@@ -85,5 +86,28 @@ body {
   .body-third-section {
     background-color: #181e2a;
     margin-top: 0px;
+  }
+  .f-first-row {
+    margin-top: -200px !important;
+  }
+  .f-second-row {
+    margin-top: 100px !important;
+  }
+  .feature-section {
+    padding-left: 100px !important;
+    padding-right: 100px !important;
+  }
+  .feature-section img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 70px;
+  }
+  .feature-section h3,
+  p {
+    color: white;
+  }
+  .feature-section h3 {
+    margin-top: 20px !important;
   }
 }
