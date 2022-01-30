@@ -110,4 +110,18 @@ body {
   .feature-section h3 {
     margin-top: 20px !important;
   }
+  .f-third-row {
+    margin-top: 100px !important;
+  }
+  .third-img img {
+    width: 90% !important;
+  }
+  .third-title h2 {
+    color: white !important;
+    padding-top: 120px !important;
+    padding-right: 300px !important;
+  }
+  .third-title p {
+    padding-top: 20px !important;
+  }
 }
