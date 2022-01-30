@@ -63,7 +63,7 @@ body {
   .body-second-section {
     background: url("/images/bg-curvy-desktop.svg");
     background-size: cover;
-    height: 50vh;
+    height: 60vh;
     margin-top: -180px;
   }
   .call-btn {
@@ -81,5 +81,9 @@ body {
     border-radius: 50px;
     line-height: 56px;
     margin-top: 220px;
+  }
+  .body-third-section {
+    background-color: #181e2a;
+    margin-top: 0px;
   }
 }
