@@ -154,7 +154,7 @@ body {
     border-radius: 5px;
   }
   .cus-rev {
-    font-size: 15px;
+    font-size: 14px;
   }
   .cus-img {
     width: 10%;
@@ -170,5 +170,49 @@ body {
   .cus-pos {
     font-size: 8px;
     margin-top: -15px;
+  }
+  .mail-container {
+    width: 800px !important;
+    height: 200px;
+    background-color: #1c2230;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 180px !important;
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+  }
+  .mail-title {
+    color: white;
+    padding-top: 40px;
+  }
+  .mail-add {
+    flex: 60%;
+    width: 300px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: white;
+    margin: 0 auto;
+    line-height: 50px;
+  }
+  .mail-add p {
+    color: black;
+    opacity: 0.4;
+    margin-left: 20px;
+  }
+  .mail-btn {
+    flex: 40%;
+  }
+  .m-btn {
+    width: 200px !important;
+    height: 50px;
+    color: white;
+    margin: 0 auto;
+    border-radius: 25px;
+    line-height: 50px;
+    background-image: linear-gradient(
+      to right,
+      hsl(176, 68%, 64%),
+      hsl(198, 60%, 50%)
+    );
   }
 }
