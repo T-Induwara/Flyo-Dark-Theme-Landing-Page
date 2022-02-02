@@ -91,7 +91,7 @@ body {
     margin-top: -200px !important;
   }
   .f-second-row {
-    margin-top: 100px !important;
+    margin-top: 80px !important;
   }
   .feature-section {
     padding-left: 100px !important;
@@ -126,5 +126,18 @@ body {
   }
   .third-title a {
     text-decoration: none;
+    padding-bottom: 4px;
+    border-bottom: 1px solid hsl(176, 68%, 64%);
+    color: hsl(176, 68%, 64%);
+  }
+  .f-fourth-row {
+    margin-top: 150px !important;
+  }
+  .cus-card {
+    width: 300px;
+    height: 150px;
+    margin-right: 10px !important;
+    margin-left: 10px !important;
+    background-color: blueviolet;
   }
 }
