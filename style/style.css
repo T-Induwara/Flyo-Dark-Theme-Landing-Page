@@ -85,7 +85,7 @@ body {
   }
   .body-third-section {
     background-color: #181e2a;
-    margin-top: 0px;
+    margin-top: 15vh;
   }
   .f-first-row {
     margin-top: -200px !important;
@@ -118,10 +118,13 @@ body {
   }
   .third-title h2 {
     color: white !important;
-    padding-top: 120px !important;
+    padding-top: 5vh !important;
     padding-right: 300px !important;
   }
   .third-title p {
     padding-top: 20px !important;
+  }
+  .third-title a {
+    text-decoration: none;
   }
 }
