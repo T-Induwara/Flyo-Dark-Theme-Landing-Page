@@ -219,6 +219,7 @@ body {
     padding-top: 200px !important;
     padding-left: 80px !important;
     padding-right: 80px !important;
+    padding-bottom: 100px !important;
     background-color: hsl(216, 53%, 9%);
     margin-top: -100px;
   }
