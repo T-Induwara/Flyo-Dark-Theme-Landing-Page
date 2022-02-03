@@ -170,14 +170,15 @@ body {
     margin-top: -15px;
   }
   .mail-container {
+    z-index: 2 !important;
     width: 800px !important;
-    height: 200px;
     background-color: #1c2230;
     border-radius: 10px;
     margin: 0 auto;
     margin-top: 180px !important;
     padding-left: 40px !important;
     padding-right: 40px !important;
+    padding-bottom: 60px !important;
   }
   .mail-title {
     color: white;
@@ -212,5 +213,52 @@ body {
       hsl(176, 68%, 64%),
       hsl(198, 60%, 50%)
     );
+  }
+  .body-footer {
+    z-index: 1 !important;
+    padding-top: 200px !important;
+    padding-left: 80px !important;
+    padding-right: 80px !important;
+    background-color: hsl(216, 53%, 9%);
+    margin-top: -100px;
+  }
+  .foo-logo {
+    width: 60%;
+  }
+  .foo-add {
+    padding-top: 20px !important;
+  }
+  .foo-loc {
+    height: 20px;
+  }
+  .foo-add-txt {
+    font-size: 13px;
+    padding-left: 20px !important;
+  }
+  .foo-phone {
+    padding-top: 70px;
+  }
+  .foo-ph,
+  .foo-email {
+    height: 17px;
+  }
+  .foo-ph-num,
+  .foo-mail-txt {
+    padding-left: 20px;
+    margin-top: -4px;
+  }
+  .foo-f-ul,
+  .foo-s-ul {
+    padding-top: 70px;
+  }
+  ul li {
+    color: white;
+  }
+  .foo-social {
+    justify-content: space-around;
+    padding-top: 70px;
+  }
+  .foo-social img {
+    width: 25px;
   }
 }
