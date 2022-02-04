@@ -51,8 +51,76 @@ body {
   padding-right: 30px;
   margin-top: 20px;
 }
+.body-second-section {
+  background: url("/images/bg-curvy-mobile.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 60vh;
+  margin-top: -450px;
+}
+.call-btn {
+  width: 280px;
+  height: 56px;
+  font-family: "Raleway", sans-serif;
+  font-size: 21px;
+  font-weight: 400;
+  color: white;
+  background-image: linear-gradient(
+    to right,
+    hsl(176, 68%, 64%),
+    hsl(198, 60%, 50%)
+  );
+  border-radius: 50px;
+  line-height: 56px;
+  margin-top: 470px;
+}
+.body-third-section {
+  background-color: #181e2a;
+  margin-top: -24vh;
+}
+.f-first-row {
+  padding-top: 45vh !important;
+}
+.feature-section img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px !important;
+  height: 80px;
+}
+.feature-section h3,
+p {
+  margin-top: 20px !important;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
 .third-img img {
-  width: 25%;
+  width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 150px;
+}
+.third-title h2 {
+  font-size: 20px;
+  color: white !important;
+  padding-top: 6vh !important;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.third-title p {
+  font-size: 16px;
+}
+.third-title a {
+  font-size: 16px;
+  text-decoration: none;
+  padding-bottom: 4px;
+  border-bottom: 1px solid hsl(176, 68%, 64%);
+  color: hsl(176, 68%, 64%);
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 @media only screen and (min-width: 1280px) {
@@ -94,7 +162,6 @@ body {
   .call-btn {
     width: 280px;
     height: 56px;
-    font-family: "Raleway", sans-serif;
     font-size: 21px;
     font-weight: 400;
     color: white;
@@ -113,6 +180,7 @@ body {
   }
   .f-first-row {
     margin-top: -200px !important;
+    padding-top: 0 !important;
   }
   .f-second-row {
     margin-top: 80px !important;
@@ -125,11 +193,15 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 0px !important;
     height: 70px;
   }
   .feature-section h3,
   p {
+    margin-top: 0px;
     color: white;
+    padding-left: 0px;
+    padding-right: 0px;
   }
   .feature-section h3 {
     margin-top: 20px !important;
@@ -139,6 +211,10 @@ body {
   }
   .third-img img {
     width: 90% !important;
+    display: block;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
   }
   .third-title h2 {
     color: white !important;
