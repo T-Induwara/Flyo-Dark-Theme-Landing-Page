@@ -272,6 +272,9 @@ ul li {
     padding-right: 80px;
     padding-left: 80px;
   }
+  .col1 img {
+    width: 170px;
+  }
   .h-btn {
     font-size: 14px;
   }
@@ -381,7 +384,7 @@ ul li {
     position: absolute;
     width: 50px;
     margin-top: -35px;
-    margin-left: -11vw;
+    margin-left: -13vw;
   }
   .cus-card1,
   .cus-card2,
