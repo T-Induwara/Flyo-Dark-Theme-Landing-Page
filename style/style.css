@@ -167,6 +167,102 @@ p {
   font-size: 8px;
   margin-top: -15px !important;
 }
+.mail-container {
+  z-index: 2 !important;
+  width: 320px !important;
+  background-color: #1c2230;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-top: 180px !important;
+  padding-bottom: 60px !important;
+}
+.mail-title {
+  color: white;
+  padding-top: 40px;
+}
+.mail-desc {
+  font-size: 15px;
+}
+.mailbox {
+  display: block !important;
+}
+.mail-add {
+  width: 280px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: white;
+  margin: 0 auto;
+  line-height: 50px;
+}
+.mail-add p {
+  color: black;
+  opacity: 0.4;
+  margin-left: 20px;
+  font-size: 12px;
+}
+.mail-btn {
+  margin-top: 30px;
+}
+.m-btn {
+  width: 280px;
+  height: 50px;
+  color: white;
+  margin: 0 auto;
+  border-radius: 25px;
+  line-height: 50px;
+  background-image: linear-gradient(
+    to right,
+    hsl(176, 68%, 64%),
+    hsl(198, 60%, 50%)
+  );
+}
+.body-footer {
+  z-index: 1 !important;
+  padding-top: 200px !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  padding-bottom: 100px !important;
+  background-color: hsl(216, 53%, 9%);
+  margin-top: -150px;
+}
+.foo-logo {
+  width: 200px;
+}
+.foo-add {
+  padding-top: 20px !important;
+}
+.foo-loc {
+  height: 20px;
+  margin-top: 20px !important;
+}
+.foo-add-txt {
+  font-size: 14px;
+  padding-left: 20px !important;
+}
+.foo-ph,
+.foo-email {
+  height: 17px;
+}
+.foo-ph-num,
+.foo-mail-txt {
+  margin-top: -4px !important;
+}
+.foo-f-ul,
+.foo-s-ul {
+  padding-top: 70px;
+  margin-left: -32px !important;
+}
+ul li {
+  color: white;
+  list-style: none;
+}
+.foo-social {
+  justify-content: space-around;
+  padding-top: 70px;
+}
+.foo-social img {
+  width: 25px;
+}
 
 @media only screen and (min-width: 1280px) {
   /*font-family: 'Raleway', sans-serif;*/
@@ -337,6 +433,9 @@ p {
     color: white;
     padding-top: 40px;
   }
+  .mailbox {
+    display: flex !important;
+  }
   .mail-add {
     flex: 60%;
     width: 300px;
@@ -384,6 +483,7 @@ p {
   }
   .foo-loc {
     height: 20px;
+    margin-top: 0 !important;
   }
   .foo-add-txt {
     font-size: 13px;
