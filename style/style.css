@@ -284,13 +284,13 @@ ul li {
     padding-left: 28vw;
     padding-right: 28vw;
     margin-top: 40px;
-    padding-left: 0px;
-    padding-right: 0px;
+    padding-left: 20vw !important;
+    padding-right: 20vw !important;
   }
   .intro-desc {
-    font-size: 20px;
-    padding-left: 32vw;
-    padding-right: 32vw;
+    font-size: 18px;
+    padding-left: 30vw;
+    padding-right: 30vw;
     margin-top: 40px;
   }
   .body-second-section {
@@ -379,6 +379,7 @@ ul li {
   .quote {
     z-index: 1 !important;
     position: absolute;
+    width: 50px;
     margin-top: -35px;
     margin-left: -11vw;
   }
@@ -433,8 +434,12 @@ ul li {
     color: white;
     padding-top: 40px;
   }
+  .mail-desc {
+    font-size: 13px;
+  }
   .mailbox {
     display: flex !important;
+    margin-top: 30px !important;
   }
   .mail-add {
     flex: 60%;
@@ -443,15 +448,17 @@ ul li {
     border-radius: 25px;
     background-color: white;
     margin: 0 auto;
-    line-height: 50px;
+    line-height: 10px;
   }
   .mail-add p {
     color: black;
     opacity: 0.4;
     margin-left: 20px;
+    font-size: 15px;
   }
   .mail-btn {
     flex: 40%;
+    margin-top: 0px;
   }
   .m-btn {
     width: 200px !important;
@@ -483,7 +490,7 @@ ul li {
   }
   .foo-loc {
     height: 20px;
-    margin-top: 0 !important;
+    margin-top: 20px !important;
   }
   .foo-add-txt {
     font-size: 13px;
@@ -491,6 +498,7 @@ ul li {
   }
   .foo-phone {
     padding-top: 70px;
+    margin-top: 20px !important;
   }
   .foo-ph,
   .foo-email {
@@ -504,13 +512,16 @@ ul li {
   .foo-f-ul,
   .foo-s-ul {
     padding-top: 70px;
+    margin-top: 20px !important;
   }
   ul li {
     color: white;
+    font-size: 14px;
   }
   .foo-social {
     justify-content: space-around;
     padding-top: 70px;
+    margin-top: 20px !important;
   }
   .foo-social img {
     width: 25px;
