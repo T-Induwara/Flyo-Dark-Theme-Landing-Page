@@ -5,7 +5,7 @@ body {
 }
 /*font-family: 'Raleway', sans-serif;*/
 /*font-family: 'Open Sans', sans-serif;*/
-.header {
+.header-s-section {
   padding-left: 20px;
   padding-top: 10px;
 }
@@ -267,7 +267,7 @@ ul li {
 @media only screen and (min-width: 1280px) {
   /*font-family: 'Raleway', sans-serif;*/
   /*font-family: 'Open Sans', sans-serif;*/
-  .header {
+  .header-s-section {
     padding-top: 40px;
     padding-right: 80px;
     padding-left: 80px;
